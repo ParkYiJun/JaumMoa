@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8232873893182490483}
   m_Layer: 0
-  m_Name: Player
+  m_Name: PlayerStartingPoint
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -126,8 +126,9 @@ GameObject:
   - component: {fileID: 8232873894098652708}
   - component: {fileID: 8232873894098652699}
   - component: {fileID: 8232873894098652709}
+  - component: {fileID: 3557660670584512736}
   m_Layer: 0
-  m_Name: Body
+  m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -245,3 +246,15 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &3557660670584512736
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8232873894098652697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f99725fd88101f42a59738aa7e738d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
